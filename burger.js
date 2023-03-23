@@ -1,17 +1,15 @@
 "use strict";
 
 let navUl = document.getElementById("ul-item");
-let burgerbar = document.getElementById("burgerBar");
+let burgerBar = document.getElementById("burgerBar");
 
-
-burgerbar.addEventListener("click", function () {
+burgerBar.addEventListener("click", function () {
   navUl.classList.toggle("toggleulNavigation");
-  burgerbar.classList.toggle("activeBurgerBar");
+  burgerBar.classList.toggle("activeBurgerBar");
 });
 
-let divWrapper = document.querySelector(".wrapper");
-let title = document.querySelector(".title");
-divWrapper.addEventListener("click", function (event) {
-  console.log(this);
-});
-
+// let divWrapper = document.querySelector(".wrapper");
+// let title = document.querySelector(".title");
+// divWrapper.addEventListener("click", function (event) {
+//   console.log(this);
+// });

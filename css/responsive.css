@@ -1,13 +1,22 @@
 @media(max-width: 700px){
     .burger-bar{
         display: block;
+        
     }
 
-    .navigation{
+    .nav-ul{
         display: none;
+        transition: all 0.5s;
     }
 
     .container{
         width: 80%;
     }
+
+   .toggleulNavigation{
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701635368.jpg);
+    transition: all 5s;
+    background-position: top;
+    background-repeat: no-repeat;
+   }
 }

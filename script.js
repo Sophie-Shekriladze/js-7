@@ -13,7 +13,7 @@ for (let item of accordion) {
   });
 }
 
-
+let header = document.querySelector('.header')
 
 
 //forEach
