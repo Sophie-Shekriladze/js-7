@@ -14,3 +14,4 @@ let title = document.querySelector(".title");
 divWrapper.addEventListener("click", function (event) {
   console.log(this);
 });
+

@@ -13,7 +13,7 @@ for (let item of accordion) {
   });
 }
 
-let header = document.querySelector('.header')
+
 
 
 //forEach
@@ -24,5 +24,4 @@ let header = document.querySelector('.header')
 //         console.log(activeContainer);
 //       });
 // })
-
 
