@@ -4,7 +4,7 @@ body{
     height: 1200px;
 }
 header{
-    background-color:  rgb(101, 3, 65);
+    background-color: purple;
     padding: 30px;
     align-items: center;
     position: relative;
@@ -14,8 +14,7 @@ header{
     z-index: 19;
     top: 0px;
     margin: 0 auto;
-    
-    
+       
 }
 .accordion-body{
     margin-top: 150px;
@@ -117,7 +116,7 @@ ul{
     max-width: 600px;
     width: 100%;
     padding: 50px;
-    background-color: rgb(105, 21, 81);
+    background-color: rgb(168, 54, 136);
     cursor: pointer;
     color: white;
 }
@@ -157,7 +156,33 @@ ul{
     z-index: 27;
     right: 10px;
     bottom: 20px;
-    background: rgb(167, 15, 73);
+    background: rgb(161, 53, 94);
     border: none;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 5px;
 }
 
+.change-color{
+    background-color: rgb(130, 211, 0);
+    transition: all 0.5s;
+}
+
+.header{
+    background-color:  rgb(156, 146, 152);
+    padding: 30px;
+    align-items: center;
+    position: relative;
+    font-family: 'Signika Negative', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 19;
+    top: 0px;
+    margin: 0 auto;
+       
+}
+/* 
+
+  .section {
+    height: 1000px;
+  } */

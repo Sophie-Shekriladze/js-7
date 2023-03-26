@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 //accordion
 
 let accordion = document.querySelectorAll(".container");
@@ -13,9 +11,6 @@ for (let item of accordion) {
   });
 }
 
-let header = document.querySelector('.header')
-
-
 //forEach
 
 // accordion.forEach(element =>{
@@ -25,11 +20,28 @@ let header = document.querySelector('.header')
 //       });
 // })
 
-let scrollButton = document.getElementById('top')
+let scrollButton = document.getElementById("top");
 
-scrollButton.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-    })
-})
+scrollButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+
+
+let header = document.getElementById('header-scroll');
+
+document.addEventListener('scroll', function() {
+  
+  let scrollOne = window.pageYOffset;
+  
+  if ( scrollOne > 100 ) {
+    header.style.backgroundColor = "pink";
+  } else {
+    header.style.backgroundColor = "purple";
+  }
+  
+});
+
